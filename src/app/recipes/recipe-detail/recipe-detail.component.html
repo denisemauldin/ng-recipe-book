@@ -21,6 +21,9 @@
 </div>
 <div class="row">
   <div class="col-xs-12">
-    Ingredients
+    <b>Ingredients</b>
   </div>
+  <ul>
+    <p *ngFor="let ingredient of selectedRecipe?.ingredients">{{ ingredient.name }} - {{ ingredient.amount }}</p>
+  </ul>
 </div>

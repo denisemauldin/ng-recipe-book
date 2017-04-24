@@ -11,7 +11,7 @@ export class RecipeListComponent implements OnInit {
        new Recipe('Thai Cashew Chicken',
                       'Thai Chicken stir-fry with cashew nuts and bell peppers',
                       'http://rasamalaysia.com/wp-content/uploads/2017/03/thai-cashew-chicken.jpg',
-                   []),
+                   [{name: "Chicken Breast", amount: 2}, {name: "Cashew Nut", amount: 50}, {name: "Red Bell Pepper", amount: 1}]),
        new Recipe('Cheesy Brat Casserole',
                   'Bratwurst, potatoes, and green beans star in this simple cheddar casserole.',
                   'http://images.meredith.com/bhg/images/recipe/p_R139542.jpg',
